@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - SENAI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #0052a3;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #003d7a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .align-right {
+            text-align: right;
+        }
+
+        .width-50 {
+            width: 50%;
+        }
+
+        .width-100 {
+            width: 100%;
+        }
+
+        .height-300 {
+            height: 300px;
+        }
+
+        .height-400 {
+            height: 400px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            color: #0052a3;
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #0052a3;
+            padding-bottom: 10px;
+        }
+
+        .section-text {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #003d7a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .colgroup-style {
+            background-color: #f0f0f0;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #0052a3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="phone"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="phone"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #0052a3;
+            box-shadow: 0 0 5px rgba(0, 82, 163, 0.3);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        button {
+            background-color: #0052a3;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #003d7a;
+        }
+
+        .contact-info {
+            background-color: #e8f4f8;
+            border-left: 4px solid #0052a3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .contact-info h3 {
+            color: #0052a3;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo SENAI">
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <div class="content">
+        <h1 class="section-title">Entre em Contato Conosco</h1>
+
+        <table>
+            <tr>
+                <td class="align-center width-50">
+                    <h2>Fale Conosco</h2>
+                </td>
+                <td class="align-center width-50">
+                    <div class="image-container">
+                        <img src="img/capa.png" alt="Imagem de contato" class="height-300">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="align-left">
+                    <p class="section-text">
+                        Estamos sempre à disposição para responder suas dúvidas e receber suas sugestões. 
+                        Preencha o formulário abaixo e entraremos em contato em breve.
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td class="align-center colgroup-style width-100">
+                    <h2>Formulário de Contato</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-left">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone:</label>
+                            <input type="phone" id="telefone" name="telefone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" required></textarea>
+                        </div>
+
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td class="align-center colgroup-style width-100">
+                    <h2>Informações de Contato</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="align-left">
+                    <div class="contact-info">
+                        <h3>Telefone</h3>
+                        <p>(11) 3000-0000</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>E-mail</h3>
+                        <p>contato@senai.com.br</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Endereço</h3>
+                        <p>Avenida Paulista, 1000</p>
+                        <p>São Paulo - SP, 01310-100</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Horário de Funcionamento</h3>
+                        <p>Segunda a Sexta: 08:00 - 18:00</p>
+                        <p>Sábado: 09:00 - 13:00</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td class="align-center width-50">
+                    <div class="image-container">
+                        <img src="img/logo.png" alt="Logo SENAI" class="height-300">
+                    </div>
+                </td>
+                <td class="align-center width-50">
+                    <h2>Redes Sociais</h2>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="align-center">
+                    <p class="section-text">
+                        Siga-nos nas redes sociais para acompanhar as novidades, eventos e oportunidades do SENAI.
+                    </p>
+                    <p class="section-text">
+                        <strong>Facebook:</strong> /senai.brasil<br>
+                        <strong>Instagram:</strong> @senai.oficial<br>
+                        <strong>LinkedIn:</strong> SENAI<br>
+                        <strong>YouTube:</strong> SENAI Brasil
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SENAI - Todos os direitos reservados.</p>
+        <p>Tecnologia no seu Aprendizado</p>
+    </footer>
+</body>
+</html>
